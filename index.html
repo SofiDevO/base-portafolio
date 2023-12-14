@@ -6,7 +6,7 @@
     <meta name="description" content="Portafolio Sofidev frontend developr" />
     <link
       rel="shortcut icon"
-      href="./assets/img/favicon.png"
+      href="./assets/img/favicon.webp"
       type="image/x-icon"
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="./assets/styles/about.css" />
     <link rel="stylesheet" href="./assets/styles/contact.css" />
     <link rel="stylesheet" href="./assets/styles/footer.css" />
-    <title>Portafolio Sofidev</title>
+    <title>Portfolio Sofidev</title>
   </head>
   <body>
     <header>
@@ -44,7 +44,9 @@
       <section class="hero">
         <div class="hero__container">
           <di class="hero__text">
-            <h1 class="hero__titulo">Hi I'm SofiDev</h1>
+            <h1 class="hero__titulo">
+              Hi I'm Sofi<span class="span--purple">Dev</span>
+            </h1>
             <h3 class="hero__description">frontend Developer</h3>
             <div class="hero__social">
               <a
@@ -55,6 +57,7 @@
                 <iconify-icon
                   class="hero__icon hero__icon--github"
                   icon="brandico:github"
+                  style="color: #27005d"
                 ></iconify-icon>
               </a>
               <a
@@ -65,26 +68,27 @@
                 <iconify-icon
                   class="hero__icon hero__icon--linkedin"
                   icon="devicon-plain:linkedin"
+                  style="color: #27005d"
                 ></iconify-icon>
               </a>
               <a href="mailto:contact@itssofi.dev">
                 <iconify-icon
                   class="hero__icon hero__icon--mail"
-                  icon="ion:mail"
+                  icon="fluent:mail-20-filled"
+                  style="color: #27005d"
                 ></iconify-icon>
               </a>
             </div>
           </di>
           <img
             class="hero__pic"
-            src="./assets/img/profile.jpg"
+            src="./assets/img/favicon.webp"
             alt="Sofidev profile photo"
           />
         </div>
       </section>
       <section class="skills" id="skills">
         <h2 class="skills__title">Skills</h2>
-        <img class="skills__img--bg" src="./assets/svg/Gradient.svg" alt="" />
         <div class="skills__container">
           <div class="card">
             <iconify-icon
@@ -133,7 +137,7 @@
         </div>
         <img
           class="about__img"
-          src="./assets/img/libro.jpg"
+          src="./assets/img/cat1.webp"
           alt="Sofi IA generated image"
         />
       </section>
@@ -190,16 +194,19 @@
       </div>
       <div class="footer__social">
         <iconify-icon
-          class="footer__icon"
-          icon="grommet-icons:instagram"
+          class="hero__icon hero__icon--github"
+          icon="brandico:github"
+          style="color: #9400ff"
         ></iconify-icon>
         <iconify-icon
-          class="footer__icon"
-          icon="fa-brands:medium"
+          class="hero__icon hero__icon--linkedin"
+          icon="devicon-plain:linkedin"
+          style="color: #9400ff"
         ></iconify-icon>
         <iconify-icon
-          class="footer__icon"
-          icon="simple-icons:twitter"
+          class="hero__icon hero__icon--mail"
+          icon="fluent:mail-20-filled"
+          style="color: #9400ff"
         ></iconify-icon>
       </div>
     </footer>

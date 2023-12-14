@@ -1,38 +1,52 @@
-*{
-    box-sizing: border-box;
-    scroll-behavior: smooth;
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
-:root{
-    --main-color:#AF0404;
-    --secundary-color: #FF0000;
-    --background-color: #252525;
-    --gray-color: #414141;
-    /* textos */
-    --titles:  'Montserrat', sans-serif;
-    --text-content:'Montserrat', sans-serif;
-    --text-hiligths: 'Fira Code', monospace;
-    --title-size: 6rem;
-    --subtitles: 3rem;
-    --middle-size: 2rem;
-    --descriptions: 4rem;
+:root {
+  --background: rgb(238, 238, 238);
+  --text-color: #121212;
+  --main-color: #27005d;
+  --secundary-color: #9400ff;
+  --gray-color: #414141;
+  --text-gradient: linear-gradient(
+    90deg,
+    rgba(148, 0, 255, 1) 0%,
+    rgb(49, 0, 118) 54%,
+    rgb(151, 16, 255) 96%
+  );
+
+  /* textos */
+  --titles: "Montserrat", sans-serif;
+  --text-content: "Montserrat", sans-serif;
+  --text-hiligths: "Fira Code", monospace;
+  --title-size: 6rem;
+  --subtitles: 3rem;
+  --middle-size: 2rem;
+  --descriptions: 4rem;
 }
 
-
-html{
-    font-size: 62.5%;
+html {
+  font-size: 62.5%;
 }
 
-body{
-    padding: 0;
-    margin: 0;
-    background-color: black;
-    color: white;
+body {
+  padding: 0;
+  margin: 0;
+  background-color: var(--background);
+  color: var(--text-color);
+}
+h1 {
+  color: var(--text-color);
 }
 
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
-li{
-    list-style: none;
+li {
+  list-style: none;
+}
+
+.span--purple {
+  color: var(--secundary-color);
 }
