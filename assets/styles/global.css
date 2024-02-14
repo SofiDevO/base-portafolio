@@ -9,12 +9,7 @@
   --main-color: #27005d;
   --secundary-color: #9400ff;
   --gray-color: #414141;
-  --text-gradient: linear-gradient(
-    90deg,
-    rgba(148, 0, 255, 1) 0%,
-    rgb(49, 0, 118) 54%,
-    rgb(151, 16, 255) 96%
-  );
+ --text-gradient: linear-gradient( 90deg, rgb(207 0 255) 0%, #00dfd7 90% );
 
   /* textos */
   --titles: "Montserrat", sans-serif;
