@@ -6,7 +6,7 @@ header {
   position: fixed;
   flex-wrap: wrap;
   padding: 1rem 2rem;
-  background-color: rgba(240, 240, 240, 0.359);
+  background-color: rgb(13 2 22 / 76%);
   -webkit-backdrop-filter: blur(14px);
   backdrop-filter: blur(14px);
   height: 9dvh;
