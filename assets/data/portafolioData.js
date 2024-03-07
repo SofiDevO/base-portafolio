@@ -7,7 +7,7 @@ export const portafolioData = [
     skills: ["html", "css", "javascript"],
   },
   {
-    img: "../../assets/img/coca.webp",
+    img: "./assets/img/coca.webp",
     title: "App de citas",
     demo: "https://itssofi.dev/",
     repo: "https://github.com/SofiDevO",
