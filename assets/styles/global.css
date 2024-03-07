@@ -13,7 +13,7 @@
 
   /* textos */
   --titles: "Montserrat", sans-serif;
-  --text-content: "Montserrat", sans-serif;
+  --font-montserrat: "Montserrat", sans-serif;
   --text-hiligths: "Fira Code", monospace;
   --title-size: 6rem;
   --subtitles: 3rem;
@@ -30,6 +30,7 @@ body {
   margin: 0;
   background-color: var(--background);
   color: var(--text-color);
+  font-family: var(--font-montserrat);
 }
 h1 {
   color: var(--text-color);
@@ -44,4 +45,16 @@ li {
 
 .span--purple {
   color: var(--secundary-color);
+}
+
+.tile__styles {
+  background: var(--text-gradient);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: var(--title-size);
+  font-family: var(--titles);
+  z-index: 3;
+  margin-bottom: 48px;
+  font-weight: 500;
 }
