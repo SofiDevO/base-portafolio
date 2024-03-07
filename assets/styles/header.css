@@ -10,7 +10,7 @@ header {
   position: fixed;
   flex-wrap: wrap;
   padding: 1rem 2rem;
-  background-color: rgba(240, 240, 240, 0.359);
+  background-color: #6c6c6c6b;
   height: 9dvh;
   z-index: 50;
 }
