@@ -7,7 +7,7 @@
   align-items: center;
   justify-content: center;
   font-family: var(--text-content);
-  height: 70dvh;
+  min-height: 100dvh;
 }
 .contact__title {
   font-size: var(--subtitles);

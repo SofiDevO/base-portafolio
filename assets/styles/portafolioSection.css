@@ -101,3 +101,27 @@
 .iconify__icon{
     font-size: 1.6rem;
 }
+
+@media screen and (max-width:768px) {
+  .portfolio{
+    padding: 0;
+  }
+  .portafolio__container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 2rem;
+    flex-direction: column;
+}
+  .portafolio__card{
+    width: 28rem;
+  }
+  .image__container {
+    min-width: 29rem;
+    overflow: hidden;
+    margin-bottom: 1.5rem;
+    height: 17rem;
+}
+
+
+}
