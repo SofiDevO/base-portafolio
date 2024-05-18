@@ -2,9 +2,14 @@
   display: flex;
   justify-content: space-between;
   padding: 10px 20px;
-  height: 17dvh;
+  min-height: 23dvh;
   align-items: center;
   background: #101010;
+}
+.footer__list{
+  gap: .4rem;
+  display: flex;
+  flex-direction: column;
 }
 .footer__links {
   display: flex;
@@ -23,12 +28,20 @@
   font-size: 3rem;
   display: flex;
   align-items: center;
-  gap: 6px;
+  gap: 7px;
+  width:max-content;
+  justify-content: center;
 }
 
 @media screen and (max-width: 768px) {
   .footer {
     flex-direction: column;
-    height: 24dvh;
+    padding: 2rem 0;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+  .footer__social{
+    justify-content: space-evenly;
+    width: 100%;
   }
 }

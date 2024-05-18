@@ -2,13 +2,12 @@
 
 .skills {
   position: relative;
-  display: flex;
-  width: 100%;
-  height: auto;
-  align-items: center;
-  justify-content: flex-start;
-  flex-direction: column;
-  padding: 17rem 0;
+    display: flex;
+    width: 100%;
+    min-height: 100dvh;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
 }
 
 .skills__title {
@@ -68,10 +67,6 @@
 }
 
 @media screen and (max-width: 768px) {
-  .skills {
-    height: auto;
-    padding: 13rem 0;
-  }
   .skills__img--bg {
     min-width: 321px;
   }

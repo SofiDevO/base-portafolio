@@ -51,6 +51,7 @@ header {
 @media screen and (max-width: 768px) {
   header {
     flex-direction: column;
-    height: 12dvh;
+    min-height: 12dvh;
+    padding: 6px 10px 10px 10px;
   }
 }
