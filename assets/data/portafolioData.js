@@ -5,6 +5,7 @@ export const portafolioData = [
     demo: "https://itssofi.dev/",
     repo: "https://github.com/SofiDevO",
     skills: ["html", "css", "javascript"],
+    content: "eiusmod id pariatur aute esse exercitation culpa reprehenderit non aliquip non aliquip. <br> <br>Salto de linea eiusmod id pariatur aute esse exercitation culpa reprehenderit non aliquip non aliquip"
   },
   {
     img: "./assets/img/coca.webp",
@@ -12,6 +13,7 @@ export const portafolioData = [
     demo: "https://itssofi.dev/",
     repo: "https://github.com/SofiDevO",
     skills: ["react", "tailwind"],
+    content: "eiusmod id pariatur aute esse exercitation culpa reprehenderit non aliquip"
   },
   {
     img: "https://coreui.io/images/blog/react-bootstrap-cover.webp",
@@ -19,6 +21,7 @@ export const portafolioData = [
     demo: "https://itssofi.dev/",
     repo: "https://github.com/SofiDevO",
     skills: ["react", "bootstrap"],
+    content: "eiusmod id pariatur aute esse exercitation culpa reprehenderit non aliquip"
   },
 ];
 
